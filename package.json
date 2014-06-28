@@ -1,0 +1,35 @@
+{
+  "name": "task-requirejs",
+  "version": "0.1.0",
+  "main": "lib/requirejs.js",
+  "description": "Optimize RequireJS projects using r.js.",
+  "homepage": "https://github.com/taskjs/task-requirejs",
+  "bugs": "https://github.com/taskjs/task-requirejs/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-requirejs"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task"
+  ],
+  "dependencies": {
+    "almond": "^0.2.9",
+    "amdclean": "^2.2.2",
+    "execution": "^0.1.2",
+    "lodash": "^2.4.1",
+    "record": "^0.2.0",
+    "requirejs": "^2.1.13"
+  },
+  "scripts": {
+    "test": "node test/requirejs_test"
+  }
+}
